@@ -1,5 +1,3 @@
-# Getting Started with Create React App
-
 # Steps to start the project
 - npm i
 - npm run storybook
