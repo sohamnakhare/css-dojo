@@ -1,0 +1,55 @@
+:root {
+    --primary: #2196f3;
+    --warning: orange;
+  }
+  
+  .button-contained {
+    border: 1px solid;
+  }
+  
+  .button-contained--primary {
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  .button-contained--warning {
+    background-color: var(--warning);
+    color: white;
+  }
+  
+  .button-contained--disabled {
+    background-color: grey;
+    color: black;
+  }
+  
+  .button-outlined {
+    border: 1px solid;
+  }
+  
+  .button-outlined--primary {
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+  
+  .button-outlined--warning {
+    border-color: var(--warning);
+    color: var(--warning);
+  }
+  
+  .button-outlined--disabled {
+    border-color: grey;
+    color: black;
+  }
+  
+  .button-large {
+    padding: 8px 22px;
+  }
+  
+  .button-medium {
+    padding: 6px 16px;
+  }
+  
+  .button-small {
+    padding: 4px 10px;
+  }
+  
